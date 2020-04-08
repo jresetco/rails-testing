@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Header:</strong>
+  <%= @response.header %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @response.body %>
+</p>
+
+<p>
+  <strong>Success:</strong>
+  <%= @response.success %>
+</p>
+
+<p>
+  <strong>Parsed return:</strong>
+  <%= @response.parsed_return %>
+</p>
+
+<%= link_to 'Edit', edit_response_path(@response) %> |
+<%= link_to 'Back', responses_path %>

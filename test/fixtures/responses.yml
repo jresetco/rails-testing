@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  header: MyString
+  body: MyString
+  success: false
+  parsed_return: MyString
+
+two:
+  header: MyString
+  body: MyString
+  success: false
+  parsed_return: MyString
